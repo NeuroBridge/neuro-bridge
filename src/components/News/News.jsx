@@ -1,22 +1,21 @@
+import { Tab } from "bootstrap";
 import React, { Component } from "react";
-import { Row, Col } from "react-bootstrap";
+import { Row, Col, Container } from "react-bootstrap";
+import TableOfContents from "./TableOfContents";
+import MainContent from "./MainContent";
+import "/Users/ishanpatel/Downloads/learning-react/neuro-bridges/src/components/News/TableOfContents.css";
 
 class News extends Component {
   render() {
     return (
-      <Row>
-        <div style={{ background: "grey" }}>
-          <Col fluid>
-            <p>
-              This is going to be the side bar to easily navigate the news page
-              hopefuly{" "}
-            </p>
-          </Col>
+      <div className="app">
+        <div className="nav" style={{ position: "fixed" }}>
+          <TableOfContents />
         </div>
-        <Col>
-          <h4>This is where the news is going to go</h4>
-        </Col>
-      </Row>
+        <div className="content">
+          <MainContent />
+        </div>
+      </div>
     );
   }
 }
