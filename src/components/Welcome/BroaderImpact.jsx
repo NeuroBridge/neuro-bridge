@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Media, Row, Col } from "react-bootstrap";
+import { Image, Row, Col } from "react-bootstrap";
 import placeHolder from "/Users/ishanpatel/Downloads/learning-react/neuro-bridges/src/components/Assets/testImage.jpg";
 
 class BroaderImpact extends Component {
@@ -27,8 +27,9 @@ class BroaderImpact extends Component {
               Facility (INCF) Congress.
             </p>
           </Col>
-          <Col sm={3}>
-            <img src={placeHolder} width={200} height={200}></img>
+          <Col sm={3} className="m-auto">
+            {/* <img src={placeHolder} width={200} height={200}></img> */}
+            <Image src={placeHolder} rounded fluid />
           </Col>
         </Row>
       </>

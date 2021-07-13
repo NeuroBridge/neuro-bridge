@@ -1,13 +1,13 @@
 import React, { Component } from "react";
-import { Row, Col } from "react-bootstrap";
+import { Row, Col, Image } from "react-bootstrap";
 import placeHolder from "/Users/ishanpatel/Downloads/learning-react/neuro-bridges/src/components/Assets/testImage.jpg";
 
 class IntelectualMerrit extends Component {
   render() {
     return (
       <Row>
-        <Col sm={3}>
-          <img src={placeHolder} width={200} height={200}></img>
+        <Col className="m-auto" sm={3}>
+          <Image className="m-auto" src={placeHolder} fluid roundedCircle />
         </Col>
         <Col>
           <h3>Intelectual Merrit</h3>

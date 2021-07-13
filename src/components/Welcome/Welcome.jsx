@@ -10,10 +10,16 @@ class Welcome extends Component {
     return (
       <>
         <WelcomeSlides />
+        <br />
+        <br />
+        <br />
         <Container>
           <ProjectSummary />
+          <hr />
           <IntelectualMerrit />
+          <hr />
           <BroaderImpact />
+          <hr />
         </Container>
       </>
     );

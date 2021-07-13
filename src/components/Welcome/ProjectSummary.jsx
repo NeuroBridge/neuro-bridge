@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import { Row, Col } from "react-bootstrap";
+import { Row, Col, Image } from "react-bootstrap";
+import placeHolder from "/Users/ishanpatel/Downloads/learning-react/neuro-bridges/src/components/Assets/testImage.jpg";
 
 class ProjectSummary extends Component {
   render() {
@@ -31,8 +32,8 @@ class ProjectSummary extends Component {
             critical neuroscience data sets.
           </p>
         </Col>
-        <Col sm={3}>
-          <h4>This is where the image for Project Summary is going to go</h4>
+        <Col sm={3} className="m-auto">
+          <Image src={placeHolder} fluid thumbnail />
         </Col>
       </Row>
     );
