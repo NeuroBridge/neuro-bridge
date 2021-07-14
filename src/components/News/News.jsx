@@ -1,6 +1,4 @@
-import { Tab } from "bootstrap";
 import React, { Component } from "react";
-import { Row, Col, Container } from "react-bootstrap";
 import TableOfContents from "./TableOfContents";
 import MainContent from "./MainContent";
 import "/Users/ishanpatel/Downloads/learning-react/neuro-bridges/src/components/News/TableOfContents.css";

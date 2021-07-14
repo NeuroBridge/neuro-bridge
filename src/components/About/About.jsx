@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Row, Container, CardDeck } from "react-bootstrap";
+import { Container, CardDeck } from "react-bootstrap";
 import CardData from "/Users/ishanpatel/Downloads/learning-react/neuro-bridges/src/components/About/CardData.js";
 import CardItem from "./CardItem";
 

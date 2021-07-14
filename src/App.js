@@ -8,7 +8,7 @@ import News from "./components/News/News";
 function App() {
   return (
     <>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Navigation />
         <Switch>
           <Route exact path="/about">

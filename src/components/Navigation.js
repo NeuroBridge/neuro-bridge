@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Navbar, Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import { HashLink } from "react-router-hash-link";
+//import { HashLink } from "react-router-hash-link";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 class Navigation extends Component {
