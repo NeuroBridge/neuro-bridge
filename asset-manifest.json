@@ -1,27 +1,27 @@
 {
   "files": {
     "main.css": "/neuro-bridges/static/css/main.536f4161.chunk.css",
-    "main.js": "/neuro-bridges/static/js/main.dcf36679.chunk.js",
-    "main.js.map": "/neuro-bridges/static/js/main.dcf36679.chunk.js.map",
-    "runtime-main.js": "/neuro-bridges/static/js/runtime-main.46071227.js",
-    "runtime-main.js.map": "/neuro-bridges/static/js/runtime-main.46071227.js.map",
+    "main.js": "/neuro-bridges/static/js/main.6979a847.chunk.js",
+    "main.js.map": "/neuro-bridges/static/js/main.6979a847.chunk.js.map",
+    "runtime-main.js": "/neuro-bridges/static/js/runtime-main.aca587dc.js",
+    "runtime-main.js.map": "/neuro-bridges/static/js/runtime-main.aca587dc.js.map",
     "static/css/2.081f420c.chunk.css": "/neuro-bridges/static/css/2.081f420c.chunk.css",
-    "static/js/2.a9b18f81.chunk.js": "/neuro-bridges/static/js/2.a9b18f81.chunk.js",
-    "static/js/2.a9b18f81.chunk.js.map": "/neuro-bridges/static/js/2.a9b18f81.chunk.js.map",
-    "static/js/3.bfef4fd6.chunk.js": "/neuro-bridges/static/js/3.bfef4fd6.chunk.js",
-    "static/js/3.bfef4fd6.chunk.js.map": "/neuro-bridges/static/js/3.bfef4fd6.chunk.js.map",
+    "static/js/2.3a2d799d.chunk.js": "/neuro-bridges/static/js/2.3a2d799d.chunk.js",
+    "static/js/2.3a2d799d.chunk.js.map": "/neuro-bridges/static/js/2.3a2d799d.chunk.js.map",
+    "static/js/3.cb8475d0.chunk.js": "/neuro-bridges/static/js/3.cb8475d0.chunk.js",
+    "static/js/3.cb8475d0.chunk.js.map": "/neuro-bridges/static/js/3.cb8475d0.chunk.js.map",
     "index.html": "/neuro-bridges/index.html",
     "static/css/2.081f420c.chunk.css.map": "/neuro-bridges/static/css/2.081f420c.chunk.css.map",
     "static/css/main.536f4161.chunk.css.map": "/neuro-bridges/static/css/main.536f4161.chunk.css.map",
-    "static/js/2.a9b18f81.chunk.js.LICENSE.txt": "/neuro-bridges/static/js/2.a9b18f81.chunk.js.LICENSE.txt",
+    "static/js/2.3a2d799d.chunk.js.LICENSE.txt": "/neuro-bridges/static/js/2.3a2d799d.chunk.js.LICENSE.txt",
     "static/media/800x400imgtest2.fcb2740a.jpg": "/neuro-bridges/static/media/800x400imgtest2.fcb2740a.jpg",
     "static/media/testImage.589c331b.jpg": "/neuro-bridges/static/media/testImage.589c331b.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.46071227.js",
+    "static/js/runtime-main.aca587dc.js",
     "static/css/2.081f420c.chunk.css",
-    "static/js/2.a9b18f81.chunk.js",
+    "static/js/2.3a2d799d.chunk.js",
     "static/css/main.536f4161.chunk.css",
-    "static/js/main.dcf36679.chunk.js"
+    "static/js/main.6979a847.chunk.js"
   ]
 }
