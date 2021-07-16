@@ -7,6 +7,7 @@ class News extends Component {
   render() {
     return (
       <div className="app">
+        <h1>News</h1>
         <div className="nav" style={{ position: "fixed" }}>
           <TableOfContents />
         </div>
