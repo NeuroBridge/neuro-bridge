@@ -16,7 +16,7 @@ class About extends Component {
       <CardItem item={item} key={item.id} />
     ));
     return (
-      <div style={{ background: "radial-gradient(white, grey)" }}>
+      <div style={{ background: "radial-gradient(white, rgb(202, 210, 218))" }}>
         <Container>
           <br />
           <CardDeck>
@@ -29,6 +29,12 @@ class About extends Component {
             {cardGroup[3]}
             {cardGroup[4]}
             {cardGroup[5]}
+          </CardDeck>
+          <br />
+          <CardDeck>
+            {cardGroup[6]}
+            {cardGroup[7]}
+            {cardGroup[8]}
           </CardDeck>
         </Container>
         <br />

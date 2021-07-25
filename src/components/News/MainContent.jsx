@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import NewsData from "./NewsText";
-import "/Users/ishanpatel/Downloads/learning-react/neuro-bridges/src/components/News/TableOfContents.css";
 
 class MainContent extends Component {
   constructor() {

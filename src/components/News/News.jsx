@@ -1,13 +1,22 @@
 import React, { Component } from "react";
 import TableOfContents from "./TableOfContents";
 import MainContent from "./MainContent";
-import "/Users/ishanpatel/Downloads/learning-react/neuro-bridges/src/components/News/TableOfContents.css";
+import "/Users/ishanpatel/Downloads/learning-react/neuro-bridges/src/components/News/News.css";
 
 class News extends Component {
+  constructor() {
+    super();
+    this.state = {
+      currentHeader: "1",
+    };
+  }
+
   render() {
     return (
       <div className="app">
-        <h1>News</h1>
+        <div className="title">
+          <h1>News</h1>
+        </div>
         <div className="nav" style={{ position: "fixed" }}>
           <TableOfContents />
         </div>

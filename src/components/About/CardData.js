@@ -49,6 +49,30 @@ const CardData = [
     buttonLink: "",
     buttonText: "Button Text",
   },
+  {
+    id: 7,
+    imgPath: { testImage },
+    name: "Romin Patel",
+    text: "This is a quick bio of Romin",
+    buttonLink: "",
+    buttonText: "Button Text",
+  },
+  {
+    id: 8,
+    imgPath: { testImage },
+    name: "Romin Patel",
+    text: "This is a quick bio of Romin",
+    buttonLink: "",
+    buttonText: "Button Text",
+  },
+  {
+    id: 9,
+    imgPath: { testImage },
+    name: "Romin Patel",
+    text: "This is a quick bio of Romin",
+    buttonLink: "",
+    buttonText: "Button Text",
+  },
 ];
 
 export default CardData;

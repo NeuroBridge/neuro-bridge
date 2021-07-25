@@ -1,19 +1,46 @@
 import React, { Component } from "react";
-import MainContent from "./MainContent";
 import NewsData from "/Users/ishanpatel/Downloads/learning-react/neuro-bridges/src/components/News/NewsText.jsx";
+import { Link, Scroll } from "react-scroll";
+import { Nav } from "react-bootstrap";
 
 class TableOfContents extends Component {
+  constructor() {
+    super();
+    this.state = {
+      headers: NewsData,
+    };
+    this.handleClick = this.handleClick.bind(this);
+  }
+
+  handleClick() {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+
   render() {
-    <MainContent />;
+    const headerGroup = this.state.headers.map((item) => (
+      <div key={item.id}>
+        <li>
+          <Link
+            onClick={this.handleClick}
+            activeClass="active"
+            to={"header" + item.id}
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            <p>{item.title}</p>
+          </Link>
+        </li>
+      </div>
+    ));
     return (
-      <nav aria-label="Table of contents">
-        <h4>Table of Contents</h4>
-        <a href="#header1">{NewsData[0].title}</a>
-        <br />
-        <a href="#header2">{NewsData[1].title}</a>
-        <br />
-        <a href="#header3">{NewsData[2].title}</a>
-      </nav>
+      <>
+        <h4 onClick={this.handleClick} style={{ textAlign: "center" }}>
+          Contents
+        </h4>
+        <ul>{headerGroup}</ul>
+      </>
     );
   }
 }

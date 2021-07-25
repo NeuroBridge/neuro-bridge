@@ -3,36 +3,48 @@
   position: -webkit-sticky;
   height: 50%;
   flex-direction: column;
-  margin-left: 10px;
   margin-top: 70px;
   text-align: center;
   padding: 10px;
-  color: "red";
+  width: 150px;
+  word-wrap: break-word;
+  text-align: left;
 }
 
 .content {
   vertical-align: left;
-  margin-left: 75px;
   margin-right: 50px;
   margin-top: 40px;
 }
 
 .app {
   display: flex;
-  flex-direction: row;
+  margin-bottom: 200px;
 }
 
 h4 {
   color: green;
 }
 
-h1 {
+.title {
   margin: 10px;
   padding-right: 30px;
   padding-left: 10px;
   border-radius: 10px;
   background-color: rgb(202, 210, 218);
   height: 50px;
-  width: 200px;
   text-align: center;
+  flex-direction: row;
+}
+
+a {
+  color: black;
+}
+
+a.active {
+  color: grey;
+}
+
+li {
+  font-size: medium;
 }
