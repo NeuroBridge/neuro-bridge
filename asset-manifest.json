@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/neuro-bridge/static/css/main.536f4161.chunk.css",
-    "main.js": "/neuro-bridge/static/js/main.d900b28b.chunk.js",
-    "main.js.map": "/neuro-bridge/static/js/main.d900b28b.chunk.js.map",
-    "runtime-main.js": "/neuro-bridge/static/js/runtime-main.5592f573.js",
-    "runtime-main.js.map": "/neuro-bridge/static/js/runtime-main.5592f573.js.map",
+    "main.css": "/neuro-bridge/static/css/main.6caed080.chunk.css",
+    "main.js": "/neuro-bridge/static/js/main.d02a9697.chunk.js",
+    "main.js.map": "/neuro-bridge/static/js/main.d02a9697.chunk.js.map",
+    "runtime-main.js": "/neuro-bridge/static/js/runtime-main.f2407149.js",
+    "runtime-main.js.map": "/neuro-bridge/static/js/runtime-main.f2407149.js.map",
     "static/css/2.081f420c.chunk.css": "/neuro-bridge/static/css/2.081f420c.chunk.css",
-    "static/js/2.3a2d799d.chunk.js": "/neuro-bridge/static/js/2.3a2d799d.chunk.js",
-    "static/js/2.3a2d799d.chunk.js.map": "/neuro-bridge/static/js/2.3a2d799d.chunk.js.map",
-    "static/js/3.cb8475d0.chunk.js": "/neuro-bridge/static/js/3.cb8475d0.chunk.js",
-    "static/js/3.cb8475d0.chunk.js.map": "/neuro-bridge/static/js/3.cb8475d0.chunk.js.map",
+    "static/js/2.37012d61.chunk.js": "/neuro-bridge/static/js/2.37012d61.chunk.js",
+    "static/js/2.37012d61.chunk.js.map": "/neuro-bridge/static/js/2.37012d61.chunk.js.map",
+    "static/js/3.25ce40e0.chunk.js": "/neuro-bridge/static/js/3.25ce40e0.chunk.js",
+    "static/js/3.25ce40e0.chunk.js.map": "/neuro-bridge/static/js/3.25ce40e0.chunk.js.map",
     "index.html": "/neuro-bridge/index.html",
     "static/css/2.081f420c.chunk.css.map": "/neuro-bridge/static/css/2.081f420c.chunk.css.map",
-    "static/css/main.536f4161.chunk.css.map": "/neuro-bridge/static/css/main.536f4161.chunk.css.map",
-    "static/js/2.3a2d799d.chunk.js.LICENSE.txt": "/neuro-bridge/static/js/2.3a2d799d.chunk.js.LICENSE.txt",
+    "static/css/main.6caed080.chunk.css.map": "/neuro-bridge/static/css/main.6caed080.chunk.css.map",
+    "static/js/2.37012d61.chunk.js.LICENSE.txt": "/neuro-bridge/static/js/2.37012d61.chunk.js.LICENSE.txt",
     "static/media/800x400imgtest2.fcb2740a.jpg": "/neuro-bridge/static/media/800x400imgtest2.fcb2740a.jpg",
     "static/media/testImage.589c331b.jpg": "/neuro-bridge/static/media/testImage.589c331b.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.5592f573.js",
+    "static/js/runtime-main.f2407149.js",
     "static/css/2.081f420c.chunk.css",
-    "static/js/2.3a2d799d.chunk.js",
-    "static/css/main.536f4161.chunk.css",
-    "static/js/main.d900b28b.chunk.js"
+    "static/js/2.37012d61.chunk.js",
+    "static/css/main.6caed080.chunk.css",
+    "static/js/main.d02a9697.chunk.js"
   ]
 }
