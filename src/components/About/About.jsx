@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Container, CardDeck } from "react-bootstrap";
 import CardData from "/Users/ishanpatel/Downloads/learning-react/neuro-bridges/src/components/About/CardData.js";
 import CardItem from "./CardItem";
+import { Row, Col } from "react-bootstrap";
 
 class About extends Component {
   constructor() {
@@ -9,35 +10,30 @@ class About extends Component {
     this.state = {
       bios: CardData,
     };
+    this.cardGroup = this.cardGroup.bind(this);
+  }
+
+  cardGroup() {
+    return;
   }
 
   render() {
-    const cardGroup = this.state.bios.map((item) => (
-      <CardItem item={item} key={item.id} />
+    const cardGroup = CardData.map((item) => (
+      <Col>
+        <CardItem item={item} key={item.id} />
+      </Col>
     ));
+    console.log(cardGroup);
     return (
-      <div style={{ background: "radial-gradient(white, rgb(202, 210, 218))" }}>
-        <Container>
-          <br />
-          <CardDeck>
-            {cardGroup[0]}
-            {cardGroup[1]}
-            {cardGroup[2]}
-          </CardDeck>
-          <br />
-          <CardDeck>
-            {cardGroup[3]}
-            {cardGroup[4]}
-            {cardGroup[5]}
-          </CardDeck>
-          <br />
-          <CardDeck>
-            {cardGroup[6]}
-            {cardGroup[7]}
-            {cardGroup[8]}
-          </CardDeck>
-        </Container>
-        <br />
+      <div className="app">
+        <Col>
+          <Row>
+            <div className="title">
+              <h1>Our Team</h1>
+            </div>
+          </Row>
+          <Row>{cardGroup}</Row>
+        </Col>
       </div>
     );
   }
