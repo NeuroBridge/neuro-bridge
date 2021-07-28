@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/neuro-bridge/static/css/main.6caed080.chunk.css",
-    "main.js": "/neuro-bridge/static/js/main.d02a9697.chunk.js",
-    "main.js.map": "/neuro-bridge/static/js/main.d02a9697.chunk.js.map",
+    "main.js": "/neuro-bridge/static/js/main.bc28fa2f.chunk.js",
+    "main.js.map": "/neuro-bridge/static/js/main.bc28fa2f.chunk.js.map",
     "runtime-main.js": "/neuro-bridge/static/js/runtime-main.f2407149.js",
     "runtime-main.js.map": "/neuro-bridge/static/js/runtime-main.f2407149.js.map",
     "static/css/2.081f420c.chunk.css": "/neuro-bridge/static/css/2.081f420c.chunk.css",
@@ -22,6 +22,6 @@
     "static/css/2.081f420c.chunk.css",
     "static/js/2.37012d61.chunk.js",
     "static/css/main.6caed080.chunk.css",
-    "static/js/main.d02a9697.chunk.js"
+    "static/js/main.bc28fa2f.chunk.js"
   ]
 }
