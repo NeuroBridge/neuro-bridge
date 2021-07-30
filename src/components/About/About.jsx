@@ -1,8 +1,7 @@
 import React, { Component } from "react";
-import { Container, CardDeck } from "react-bootstrap";
 import CardData from "/Users/ishanpatel/Downloads/learning-react/neuro-bridges/src/components/About/CardData.js";
 import CardItem from "./CardItem";
-import { Row, Col } from "react-bootstrap";
+import { Row, Col, Container } from "react-bootstrap";
 
 class About extends Component {
   constructor() {
@@ -25,15 +24,17 @@ class About extends Component {
     ));
     console.log(cardGroup);
     return (
-      <div className="app">
-        <Col>
-          <Row>
-            <div className="title">
-              <h1>Our Team</h1>
-            </div>
-          </Row>
-          <Row>{cardGroup}</Row>
-        </Col>
+      <div style={{ background: "radial-gradient(rgb(202, 210, 218),white)" }}>
+        <Container>
+          <Col>
+            <Row>
+              <div className="title">
+                <h1>Our Team</h1>
+              </div>
+            </Row>
+            <Row>{cardGroup}</Row>
+          </Col>
+        </Container>
       </div>
     );
   }

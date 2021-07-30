@@ -4,12 +4,13 @@ import Welcome from "./components/Welcome/Welcome.jsx";
 import Navigation from "./components/Navigation";
 import About from "./components/About/About";
 import News from "./components/News/News";
+import "./App.css";
 
 function App() {
   return (
-    <>
-      <Router basename={process.env.PUBLIC_URL}>
-        <Navigation />
+    <Router basename={process.env.PUBLIC_URL}>
+      <Navigation />
+      <div className="main-content">
         <Switch>
           <Route exact path="/about">
             <About />
@@ -21,8 +22,8 @@ function App() {
             <News />
           </Route>
         </Switch>
-      </Router>
-    </>
+      </div>
+    </Router>
   );
 }
 

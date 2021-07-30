@@ -4,15 +4,15 @@ import WelcomeSlides from "./Carousel.jsx";
 import ProjectSummary from "./ProjectSummary.jsx";
 import IntelectualMerrit from "./IntelectualMerrit.jsx";
 import BroaderImpact from "./BroaderImpact.jsx";
+import "./Welcome.css";
 
 class Welcome extends Component {
   render() {
     return (
       <>
-        <WelcomeSlides />
-        <br />
-        <br />
-        <br />
+        <div className="carousel">
+          <WelcomeSlides />
+        </div>
         <Container>
           <ProjectSummary />
           <hr />
