@@ -6,3 +6,17 @@
   margin-left: 10%;
   margin-right: 10%;
 }
+
+.card {
+  flex-direction: row;
+  width: 100%;
+}
+.card img {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+
+.listGroup {
+  flex-direction: column;
+}

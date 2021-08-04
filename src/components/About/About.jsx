@@ -18,23 +18,24 @@ class About extends Component {
 
   render() {
     const cardGroup = CardData.map((item) => (
-      <Col>
+      <Row key={item.id}>
         <CardItem item={item} key={item.id} />
-      </Col>
+      </Row>
     ));
-    console.log(cardGroup);
     return (
       <div style={{ background: "radial-gradient(rgb(202, 210, 218),white)" }}>
-        <Container>
-          <Col>
-            <Row>
-              <div className="title">
-                <h1>Our Team</h1>
-              </div>
-            </Row>
-            <Row>{cardGroup}</Row>
-          </Col>
-        </Container>
+        <div>
+          <Container>
+            <Col>
+              <Row>
+                <div className="title">
+                  <h1>Our Team</h1>
+                </div>
+              </Row>
+              {cardGroup}
+            </Col>
+          </Container>
+        </div>
       </div>
     );
   }

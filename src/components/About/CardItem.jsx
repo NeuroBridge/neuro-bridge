@@ -1,21 +1,34 @@
 import React, { Component } from "react";
-import { Card, Button } from "react-bootstrap";
-import { Link } from "react-router-dom";
-import testImage from "/Users/ishanpatel/Downloads/learning-react/neuro-bridges/src/components/Assets/testImage.jpg";
+import { Card, Breadcrumb } from "react-bootstrap";
 import "./About.css";
 
 class CardItem extends Component {
   render() {
     return (
-      <Card className="card" style={{ width: "18rem" }}>
-        <Card.Img variant="top" src={testImage} /*{this.props.item.imgPath}*/ />
-        <Card.Body>
-          <Card.Title>{this.props.item.name}</Card.Title>
-          <Card.Text>{this.props.item.text}</Card.Text>
-          <Link to={this.props.item.buttonLink}>
-            <Button>{this.props.item.buttonText}</Button>
-          </Link>
-        </Card.Body>
+      <Card key={this.props.item.id}>
+        <div className="card">
+          <Card.Img
+            src={process.env.PUBLIC_URL + this.props.item.imgPath}
+            alt={this.props.item.name}
+          />
+          <Card.Body>
+            <Card.Title>{this.props.item.name}</Card.Title>
+            <Card.Text>{this.props.item.text}</Card.Text>
+            <Breadcrumb>
+              <Breadcrumb.Item active>{this.props.item.email}</Breadcrumb.Item>
+              {this.props.item.phone === "" ? null : (
+                <Breadcrumb.Item active>
+                  {this.props.item.phone}
+                </Breadcrumb.Item>
+              )}
+              {this.props.item.buttonLink === "" ? null : (
+                <Breadcrumb.Item href={this.props.item.buttonLink}>
+                  Link to..
+                </Breadcrumb.Item>
+              )}
+            </Breadcrumb>
+          </Card.Body>
+        </div>
       </Card>
     );
   }
