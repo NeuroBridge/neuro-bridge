@@ -21,9 +21,14 @@ class CardItem extends Component {
                   {this.props.item.phone}
                 </Breadcrumb.Item>
               )}
-              {this.props.item.buttonLink === "" ? null : (
-                <Breadcrumb.Item href={this.props.item.buttonLink}>
-                  Link to..
+              {this.props.item.websitePath === "" ? null : (
+                <Breadcrumb.Item href={this.props.item.websitePath}>
+                  {this.props.item.linkText}
+                </Breadcrumb.Item>
+              )}
+              {this.props.item.websitePath1 === "" ? null : (
+                <Breadcrumb.Item href={this.props.item.websitePath1}>
+                  {this.props.item.linkText1}
                 </Breadcrumb.Item>
               )}
             </Breadcrumb>
