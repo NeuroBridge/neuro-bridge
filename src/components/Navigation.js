@@ -1,9 +1,18 @@
 import React, { Component } from "react";
-import { Navbar, Nav } from "react-bootstrap";
+import { Navbar, Nav, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 class Navigation extends Component {
+  constructor() {
+    super();
+    this.portalOnClick = this.portalOnClick.bind(this);
+  }
+
+  portalOnClick() {
+    window.open(`https://staging.neurobridges.org/`, "NeuroBridges_Portal");
+  }
+
   render() {
     return (
       <div>
@@ -31,6 +40,11 @@ class Navigation extends Component {
             <Link className="nav-link" to="/software">
               Software
             </Link>
+          </Nav>
+          <Nav className="ml-auto">
+            <Button onClick={this.portalOnClick} variant="secondary">
+              NeuroBridges Portal
+            </Button>
           </Nav>
         </Navbar>
       </div>
