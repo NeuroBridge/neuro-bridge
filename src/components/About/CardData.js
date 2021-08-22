@@ -3,7 +3,7 @@ const CardData = [
     //done
     id: 1,
     imgPath: "/Assets/Images/AbhishekAppaji.jpg",
-    name: "Abhishek Appaji?",
+    name: "Abhishek Appaji, PhD",
     text: "Abhishek obtained my Bachelor of Engineering in Medical Electronics with University Rank from BMSCE, India, and a Masters of Engineering (M.E) in Bioinformatics from University Visvesvaraya College of Engineering, India. His Ph.D. was in Mental Health and Neurosciences from Maastricht University, the Netherlands which received the Best thesis award. He is currently working as Assistant Professor in the department of Medical Electronics, BMSCE, India, and aspiring to join as a Post-doc at Ohio State University, USA.  ",
     websitePath: "https://linkedin.com/in/abhishek-appaji/",
     linkText: "LinkedIn",
