@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Carousel, Button } from "react-bootstrap";
-import img1 from "/Users/ishanpatel/Downloads/learning-react/neuro-bridges/src/components/Assets/800x400imgtest.jpg";
-import img2 from "/Users/ishanpatel/Downloads/learning-react/neuro-bridges/src/components/Assets/800x400imgtest2.jpg";
+import img1 from "../Assets/800x400imgtest.jpg";
+import img2 from "../Assets/800x400imgtest2.jpg";
 import { Link } from "react-router-dom";
 
 class WelcomeSlides extends Component {
