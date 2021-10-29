@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import NewsData from "/Users/ishanpatel/Downloads/learning-react/neuro-bridges/src/components/News/NewsText.jsx";
+import NewsData from "./NewsText.jsx";
 import { Link } from "react-scroll";
 
 class TableOfContents extends Component {

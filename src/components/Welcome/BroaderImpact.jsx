@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Image, Row, Col } from "react-bootstrap";
-import placeHolder from "/Users/ishanpatel/Downloads/learning-react/neuro-bridges/src/components/Assets/testImage.jpg";
+import placeHolder from "../Assets/testImage.jpg";
 
 class BroaderImpact extends Component {
   render() {

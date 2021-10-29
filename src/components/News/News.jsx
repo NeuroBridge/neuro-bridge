@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import TableOfContents from "./TableOfContents";
 import MainContent from "./MainContent";
-import "/Users/ishanpatel/Downloads/learning-react/neuro-bridges/src/components/News/News.css";
+import "./News.css";
 
 class News extends Component {
   constructor() {
